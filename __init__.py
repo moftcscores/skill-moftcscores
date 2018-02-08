@@ -80,14 +80,14 @@ class MOFTCScoresSkill(MycroftSkill):
     def handle_testing_intent(self, message):
         self.speak_dialog("moftcscores.testing")
 
-    def handle_thank_you_intent(self, message):
-        self.speak_dialog("welcome")
+    #def handle_thank_you_intent(self, message):
+    #    self.speak_dialog("welcome")
 
-    def handle_how_are_you_intent(self, message):
-        self.speak_dialog("how.are.you")
+    #def handle_how_are_you_intent(self, message):
+    #    self.speak_dialog("how.are.you")
 
-    def handle_hello_world_intent(self, message):
-        self.speak_dialog("hello.world")
+    #def handle_hello_world_intent(self, message):
+    #    self.speak_dialog("hello.world")
 
     # The "stop" method defines what Mycroft does when told to stop during
     # the skill's execution. In this case, since the skill's functionality

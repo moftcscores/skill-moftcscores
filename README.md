@@ -1,20 +1,15 @@
 # PROJECT_NAME skill
 
-This skill does ...
-
-To get this done we need
-  - This
-  - That
-  - The other thing
+This skill looks up information on FIRST Tech Challenge teams as reported by Missouri FTC Scores (moftcscores.net).
 
 
 ## Current state
 
 Working features:
- - ...
+ - nothing yet.  Still working to get bootstrapped
 
 Known issues:
- - ...
+ - nothing works yet
 
 TODO:
- - ...
+ - everything
