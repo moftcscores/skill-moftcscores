@@ -77,7 +77,7 @@ class MOFTCScoresSkill(MycroftSkill):
     # actually speak the text it's passed--instead, that text is the filename
     # of a file in the dialog folder, and Mycroft speaks its contents when
     # the method is called.
-    dev handle_testing_intent(self, message):
+    def handle_testing_intent(self, message):
         self.speak_dialog("moftcscores.testing")
 
     def handle_thank_you_intent(self, message):
